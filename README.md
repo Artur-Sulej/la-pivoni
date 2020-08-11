@@ -1,3 +1,16 @@
+# La Pivoni
+
+**Raspberry Pi + [La Pavoni](https://youtu.be/lKimj0vRM5A) = La Pivoni ☕️💻**
+
+This is a PoC of a DIY project. It's goal is to augment my La Pavoni coffee machine using Elixir Nerves & Raspberry Pi.
+Ideas:
+* measuring temperature of a grouphead with 1-wire thermometer
+* displaying values on website
+* displaying info on LCD display
+* using load cells to measure output coffee weight (concept)
+* using load cells to measure force on leaver to estimate brewing pressures (concept)
+
+
 # Hello Phoenix
 
 This example demonstrates a basic poncho project for deploying a [Phoenix
