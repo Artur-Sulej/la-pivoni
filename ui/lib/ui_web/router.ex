@@ -18,6 +18,7 @@ defmodule UiWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
+    get "/temperature", TemperatureController, :show
   end
 
   # Other scopes may use custom stacks.

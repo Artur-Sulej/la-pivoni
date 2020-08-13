@@ -1,0 +1,4 @@
+<%= case @temperature do %>
+<% {:error, _error} -> %><p>Temperature cannot be read</p>
+<% temperature -> %><p>Temperature: <span id="temperature"><%= temperature %></span> C</p>
+<% end %>
