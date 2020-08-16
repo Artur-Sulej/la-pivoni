@@ -159,6 +159,9 @@ defmodule LCD do
     |> poi(bits)
     |> set_feature(:function_set)
     |> clear()
+    |> command({:display, :on})
+
+    home(display)
   end
 
   # Software Power On Init (POI) for 4bit operation of HD44780 controller.
